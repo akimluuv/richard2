@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap');
+:root {
+--main: #fff;
+--main-rgb: 255, 255, 255;
+color-scheme: dark;
+}
+
+
+
+
+form{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(var, green, blue);
+}
+body {
+    font-family: "Unbounded", "Montserrat";
+    font-weight: 400;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100% ;
+}
+.wrapper {
+   width: 100%;
+   height: 85vh;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+header .logo{
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 900;
+}
+.hero {
+    padding-bottom: 100px;
+}
+.hero--info{
+    width: 530px;
+    padding-top: 70px;
+}
